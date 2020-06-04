@@ -27,6 +27,11 @@ a:hover, a:active {
 	margin: 0px auto;
 }
 
+.roundShadow {
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px rgba(50,50,50, 0.5);
+}
+
 #mainHeader {
 	margin-top: 40px;
 	height: 100px;
@@ -113,4 +118,110 @@ a:hover, a:active {
 	width: 960px;
 	display: flex;
 	flex-direction: row;
+}
+
+#compBlurb {
+	width: 630px;
+}
+
+#compBlurb h2 {
+	font-size: 34px;
+	font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+	color: #333;
+	line-height: 44px;
+	margin-bottom: 20px;
+}
+
+#compBlurb p {
+	font-size: 17px;
+	line-height: 24px;
+}
+
+#hire {
+	background-color: #666;
+	display: block;
+	width: 200px;
+	color: #fff;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 18px;
+	border: 1px solid #5D5A5A;
+	margin-top: 45px;
+	border-radius: 7px;
+	transition: all .1s ease-in;
+}
+
+#hire:hover {
+	background-color: #333;
+	font-size: 20px;
+}
+
+#compImage {
+	margin-left: auto;
+	width: 305px;
+	margin-top: 10px;
+}
+
+#serviceInfo {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 960px;
+}
+
+#serviceInfo h2 {
+	font-family: 'Fjalla-One', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.productDesc {
+	width: 304px;
+}
+
+#serviceInfo img {
+	opacity: 1;
+	transition: opacity .25s linear;
+}
+
+#serviceInfo img:hover {
+	opacity: .6;
+}
+
+#mainFooter {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	width: 960px;
+}
+
+#footerNav {
+	width: 500px;
+	height: 30px;
+	text-transform: uppercase;
+}
+
+#footerNav ul li {
+	display: inline;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+#footerNav ul li a {
+	color: #666;
+	transition: all .1s ease-in;
+}
+
+#footerNav ul li a:hover {
+	color: #333;
+	border-bottom: solid 1.5px #333;
+	padding-bottom: 5px;
+}
+
+#copyRight {
+	margin-left: auto;
 }
